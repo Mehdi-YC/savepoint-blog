@@ -1,0 +1,105 @@
+baseurl = "/"
+metaDataFormat = "yaml"
+title = "SavePoint Blog"
+theme = "SP"
+
+DefaultContentLanguage = "en"
+DefaultContentLanguageInSubdir = true
+[languages]
+  [languages.en]
+    contentDir = "content/en" #English
+    weight = 1
+    languageName = "English"
+
+    [languages.en.params]
+      introTitle = "All what you need to know to keep up with new technologies"
+      introSubtitle = "Junior Data Engeneers / Business Intelligence Students making Blogs about what they learn "
+      introPhoto = "/2.JPG"
+      logo = "/logo-white.png"
+    [[languages.en.menu.main]]
+        name = "Blog"
+        url = "blog"
+        weight = 1
+
+    [[languages.en.menu.main]]
+        name = "About"
+        url = "page/about/"
+        weight = 2
+
+    [[languages.en.menu.main]]
+        name = "Tags"
+        url = "tags"
+        weight = 3
+
+    [[languages.en.menu.main]]
+        name = "Top Post"
+        url = "/en/blog/emoji-support/"
+        weight = 4
+
+  [languages.fr]
+    contentDir = "content/fr" # FR
+    weight = 3
+    languageName = "Francais"
+    title = "Save Point"
+    description = "The Save Point IT blogs && tech news"
+    [languages.fr.params]
+      introTitle = "All what you need to know to keep up with new technologies"
+      introSubtitle = "Junior Data Engeneers / Business Intelligence Students making Blogs about what they learn "
+      introPhoto = "/2.JPG"
+      logo = "/logo-white.png"
+    [[languages.fr.menu.main]]
+        name = "Blog"
+        url = "blog"
+        weight = 1
+
+    [[languages.fr.menu.main]]
+        name = "à propos"
+        url = "page/about/"
+        weight = 2
+
+    [[languages.fr.menu.main]]
+        name = "Tags"
+        url = "tags"
+        weight = 3
+
+[params]
+  # Enable the darkmode toggle in header
+  darkModeToggle = true
+  
+  # Enable search in header
+  enableSearch = true
+
+  # Custom copyright - optional
+  copyright = "Copyright © 2021 - SavePoint · All rights reserved"
+  favicon = "/logo-white.svg"
+
+  # Color for the intro details and social links block, not applicable for dark mode
+  # Supported values: Any color from TailwindCSS default colors
+  # Reference: https://tailwindcss.com/docs/customizing-colors
+  ascentColor = "bg-red-400"
+
+[params.homepage.social]
+  # Global params common for both languages
+  title = ""
+  description = "We are here to share our Experience about working with data and web dev"
+  linkedin = "https://linkedin.com/in/"
+  github = "https://github.com/orgs/SavePoint-community"
+
+
+[[menu.main]]
+  name = "About"
+  url = "/about"
+
+[build]
+  writeStats = true
+
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
+
+# syntax highlight settings
+[markup]
+  [markup.highlight]
+    style = "dracula"
+  [markup.goldmark.renderer]
+    # Enable to include inline HTML
+    unsafe = true

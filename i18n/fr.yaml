@@ -1,0 +1,97 @@
+# Content
+- id: postedOnDate
+  translation: "Posté le {{ . }}"
+- id: lastModified
+  translation: "(Dernière modification le {{ . }})"
+- id: translationsLabel
+  translation: "Autres langues: "
+- id: translationsSeparator
+  translation: ", "
+- id: readMore
+  translation: "Lire plus"
+- id: morePosts
+  translation: "Plus de  Postes"
+- id: olderPosts
+  translation: "Anciens Postes"
+- id: newerPosts
+  translation: "Nouveaux Postes"
+- id: previousPost
+  translation: "Poste précédent"
+- id: nextPost
+  translation: "Prochain Poste"
+- id: readTime
+  translation: "minutes"
+- id: words
+  translation: "Mots"
+
+# Date
+- id: January
+  translation: "Janvier"
+- id: February
+  translation: "Fevrier"
+- id: March
+  translation: "Mars"
+- id: April
+  translation: "Avril"
+- id: May
+  translation: "Mai"
+- id: June
+  translation: "Juin"
+- id: July
+  translation: "Juillet"
+- id: August
+  translation: "Aout"
+- id: September
+  translation: "Septembre"
+- id: October
+  translation: "Octobre"
+- id: November
+  translation: "Novembre"
+- id: December
+  translation: "Décembre"
+
+# 404 page
+- id: pageNotFound
+  translation: "Whoops, this page doesn't exist. Move along. (404 error)"
+
+# Footer
+- id: poweredBy # Accepts HTML
+  translation: '<a href="https://gohugo.io">Hugo v{{ .Site.Hugo.Version }}</a> angetrieben &nbsp;&bull;&nbsp; Theme <a href="https://github.com/halogenica/beautifulhugo">Beautiful Hugo</a> angepasst von <a href="https://deanattali.com/beautiful-jekyll/">Beautiful Jekyll</a>'
+
+# Navigation
+- id: toggleNavigation
+  translation: "Navigation"
+- id: languageSwitcherLabel
+  translation: "Language"
+- id: gcseLabelShort
+  translation: "Recherche"
+- id: gcseLabelLong
+  translation: "Recherche {{ .Site.Title }}"
+- id: gcseClose
+  translation: "Fermer"
+
+# Staticman
+- id: noComment
+  translation: "Pas de commentaire"
+- id: oneComment
+  translation: "Commentaire"
+- id: moreComment
+  translation: "Commentaires"
+- id: useMarkdown
+  translation: "Vous pouvez utiliser la syntaxe markdown"
+- id: yourName
+  translation: "Votre Nom"
+- id: yourEmail
+  translation: "Votre Email"
+- id: yourWebsite
+  translation: "Votre siteweb"
+
+# Delayed Disqus
+- id: show
+  translation: "Voir"
+- id: comments
+  translation: "Commentaires" 
+
+# Related posts
+- id: seeAlso
+  translation: "Voir aussi"
